@@ -9,6 +9,8 @@
 ## Abstract
 The Metropolitan Museum of Art (MET) is a world-renowned museum located in New York City that features a diverse collection of artworks spanning over 5,000 years. Despite its reputation, the MET’s current search engine has limited capabilities and is not user-friendly, making it difficult for visitors to find specific artworks or information about them. To address this issue, our project develops a new search engine interface for the MET that utilizes advanced information retrieval machine learning algorithms and natural language processing techniques, as well as additional features such as cross-language search, query expansion, misspelling correction, and ranking by relevance. We use artworks’ metadata and introductory description provided by MET to build the IR system using learning-to-rank techniques and develop a web interface using Flask to allow users to interact with the search engine and receive the top 5 relevant results. Comprehensive model evaluation has shown that our efforts have significantly improved the accuracy and efficiency of the baseline model.
 
+The demonstration video can be accessed via the following [link](https://drive.google.com/file/d/19MU9Lf--nBWypDeRCnyjkP-r0eB0z7nz/view?usp=share_link).
+
 ## Installation
 This code requires several Python packages to be installed: python-terrier, fastrank, lightgbm, googletrans, swig, jamspell, selenium, pandas, numpy, nltk, beautifulsoup4, xgboost, sklearn, pyterrier.
 
